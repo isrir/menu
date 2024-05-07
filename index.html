@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Food Menu</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.column h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.column ul li:last-child {
+    border-bottom: none;
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Our Menu</h1>
+    </div>
+    <div class="menu">
+        <div class="column">
+            <h2>Starters</h2>
+            <ul>
+                <li>Garlic Bread</li>
+                <li>Bruschetta</li>
+                <li>Mozzarella Sticks</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Main Course</h2>
+            <ul>
+                <li>Pasta</li>
+                <li>Pizza</li>
+                <li>Steak</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
